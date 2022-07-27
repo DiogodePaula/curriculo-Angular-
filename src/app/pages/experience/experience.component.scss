@@ -1,0 +1,15 @@
+.experience {
+    margin: 2em 0 4em 0 !important;
+    &__card {
+    }
+    &__title {
+        padding: 1em 0 2em 0;
+    }
+    &__cursos {
+        line-height: 30px;
+        padding: 10px 10px 0 25px;
+        p {
+            text-align: justify;
+        }
+    }
+}
