@@ -8,10 +8,11 @@ import { MatDividerModule } from '@angular/material/divider';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatButtonModule } from '@angular/material/button';
-import { AboutMeModule } from './pages/about-me/about-me.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AboutMeModule } from './pages/about-me/about-me.module';
+import { FormationModule } from './pages/formation/formation.module';
 
 @NgModule({
     declarations: [AppComponent],
@@ -27,6 +28,7 @@ import { AppComponent } from './app.component';
         FlexLayoutModule,
         MatButtonModule,
         AboutMeModule,
+        FormationModule,
     ],
     providers: [],
     bootstrap: [AppComponent],

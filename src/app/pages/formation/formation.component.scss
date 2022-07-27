@@ -1,0 +1,25 @@
+.formation {
+    margin: 2em 0 4em 0 !important;
+    &__card {
+    }
+    &__title {
+        padding: 1em 0 2em 0;
+    }
+    &__cursos {
+        line-height: 30px;
+    }
+}
+.growdev {
+    min-width: 500px;
+
+    @media all and (max-width: 1200px) {
+        min-width: 100%;
+    }
+}
+table {
+    width: 1020px !important;
+    margin-left: 1.2em;
+}
+.cursos {
+    margin-bottom: 10em;
+}
