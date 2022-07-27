@@ -3,6 +3,9 @@
 @include mat.core(); //mixin do angular material
 @import './resetCss.scss';
 @import './scrollbar';
+@import './linearColor.scss';
+@import './cardBorder.scss';
+@import './waveFont.scss';
 
 $black-palette: (
     50: #e0e0e0,
