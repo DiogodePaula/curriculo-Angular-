@@ -17,8 +17,11 @@
     }
 }
 table {
-    width: 1020px !important;
+    width: 1020px;
     margin-left: 1.2em;
+    @media all and (max-width: 500px) {
+        width: 250px;
+    }
 }
 .cursos {
     margin-bottom: 10em;
