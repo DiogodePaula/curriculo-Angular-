@@ -1,39 +1,38 @@
-.content {
-    margin: 2em 0;
-}
-.content > mat-card {
-    width: 500px;
-    padding: 30px;
-}
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    &__imgContact {
-        margin: 30px 0;
+.about {
+    margin: 3em 0 !important;
+    &__card {
     }
-    &__ImgPerfil {
-        margin: 0 60px 0 20px;
-        img {
+    &__perfil {
+        margin: 2em 0 0 0;
+        .img-perfil {
+            width: 150px;
             border-radius: 50%;
         }
     }
-    &__info {
-        line-height: 25px;
-    }
-    &__infoContact {
-        margin: 10px 0;
-    }
-    &__contenteAbout {
-        margin: 1em 0 2em 0;
-        max-width: 600px;
-
-        p {
-            line-height: 20px;
+    &__redesSociais {
+        margin: 0.5em 0 1em 0;
+        .img-redes {
+            margin: 0 10px;
+            width: 30px;
+            border-radius: 50%;
         }
     }
-    &__contenteHobbies {
-        margin: 1em 0 1em 0;
-        max-width: 600px;
+    &__divider {
+        margin-bottom: 4em;
+    }
+    &__about-me {
+        margin: 2em 2em 2em 2em;
+        .aboutMe {
+            margin-bottom: 1.5em;
+        }
+        p {
+            text-align: justify;
+        }
+    }
+    &__hobbies {
+        padding: 1em 2em;
+        .aboutMe {
+            margin-bottom: 1.5em;
+        }
     }
 }
