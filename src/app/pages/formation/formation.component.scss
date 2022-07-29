@@ -4,9 +4,15 @@
     }
     &__title {
         padding: 1em 0 2em 0;
+        @media all and (max-width: 600px) {
+            margin: 0 auto;
+        }
     }
     &__cursos {
         line-height: 30px;
+        @media all and (max-width: 1170px) {
+            padding: 0 20px;
+        }
     }
 }
 .growdev {
@@ -17,10 +23,10 @@
     }
 }
 table {
-    width: 1020px;
+    width: 100%;
     margin-left: 1.2em;
-    @media all and (max-width: 500px) {
-        width: 250px;
+    @media all and (max-width: 800px) {
+        margin-left: 10px !important;
     }
 }
 .cursos {

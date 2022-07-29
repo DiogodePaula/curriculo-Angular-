@@ -31,11 +31,9 @@
                     fxLayoutGap="20px grid"
                 >
                     <div fxFlex="50%">
-                        <div class="formation__cursos">
+                        <div class="formation__cursos unisinos">
                             <h2 class="title-color">Unisinos</h2>
-                            <p>
-                                Análise e desenvolvimento de sistemas (em andamento)
-                            </p>
+                            <p>Análise e desenvolvimento de sistemas (em andamento)</p>
                         </div>
                     </div>
                     <div fxFlex="50%">
@@ -61,7 +59,9 @@
             <mat-card
                 fxLayout="column wrap"
                 fxLayoutAlign="center center"
+                fxLayoutAlign.lt-sm="center start"
                 fxFlex="80%"
+                fxFlex.lt-md="95%"
                 class="gradient-border formation__card"
             >
                 <div fxFlex="100%" class="formation__title">
