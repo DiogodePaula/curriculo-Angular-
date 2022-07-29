@@ -10,6 +10,21 @@ export interface PeriodicElement {
 const ELEMENT_DATA: PeriodicElement[] = [
     {
         institution: 'Alura',
+        name: 'FIGMA: DESIGN VISUAL DE UM SITE MOBILE',
+        date: '29/06/2022',
+    },
+    {
+        institution: 'Alura',
+        name: 'GIT E GITHUB: CONTROLE E COMPARTILHE SEU CÓDIGO',
+        date: '17/03/2022',
+    },
+    {
+        institution: 'Alura',
+        name: 'ADOBE PHOTOSHOP: CONCEITOS ESSENCIAIS',
+        date: '14/05/2022',
+    },
+    {
+        institution: 'Alura',
         name: 'TYPESCRIPT PARTE 3: MAIS TÉCNICAS E BOAS PRÁTICAS',
         date: '16/09/2021',
     },
