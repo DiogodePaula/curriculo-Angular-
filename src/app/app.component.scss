@@ -7,6 +7,7 @@ mat-sidenav {
     border-right: none;
     padding: 16px 40px;
     text-align: center;
+    overflow: hidden;
 }
 mat-sidenav-content {
     height: 1200px;
@@ -20,6 +21,7 @@ mat-sidenav-content {
 .mat-drawer-content {
     overflow: hidden;
 }
+
 .menu-button {
     width: 100%;
     display: flex;
