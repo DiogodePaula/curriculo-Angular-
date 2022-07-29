@@ -13,12 +13,37 @@
         margin: 0.5em 0 1em 0;
         .img-redes {
             margin: 0 10px;
-            width: 30px;
+            width: 35px;
+            height: 35px;
             border-radius: 50%;
+            &:hover {
+                transform: scale(1.5);
+                transition: 0.5s;
+            }
         }
+        .lin {
+            width: 37px;
+            height: 37px;
+        }
+    }
+    &__info {
+        line-height: 25px;
+        position: relative;
+        @media all and (max-width: 960px) {
+            margin-bottom: 0.5em;
+            text-align: center;
+        }
+    }
+    &__infoContact {
+        margin: 1em 0;
     }
     &__divider {
         margin-bottom: 4em;
+        position: absolute;
+        top: 15.5em;
+        @media all and (max-width: 960px) {
+            top: 28em;
+        }
     }
     &__about-me {
         margin: 2em 2em 2em 2em;
