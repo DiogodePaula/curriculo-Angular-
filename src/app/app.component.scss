@@ -7,7 +7,10 @@ mat-sidenav {
     border-right: none;
     padding: 16px 40px;
     text-align: center;
-    overflow: hidden;
+}
+mat-sidenav-content {
+    height: 1200px;
+    overflow: scroll;
 }
 .title-nav {
     @media all and (max-width: 400px) {

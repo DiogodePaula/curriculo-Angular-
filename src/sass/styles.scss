@@ -55,7 +55,8 @@ $custom-theme-dark: mat-dark-theme(
 
 html,
 body {
-    height: 145%;
+    height: 100vh;
+    overflow: hidden;
 }
 body {
     font-family: Roboto, 'Helvetica Neue', sans-serif;

@@ -20,22 +20,39 @@
 
         <mat-divider></mat-divider>
 
-        <button mat-button class="menu-button" routerLink="/about-me">
+        <button
+            mat-button
+            class="menu-button"
+            routerLink="/about-me"
+            (click)="sidenav.close()"
+        >
             <mat-icon>person</mat-icon>
             <span>Sobre mim</span>
         </button>
-        <button mat-button class="menu-button" routerLink="/formation">
+        <button
+            mat-button
+            class="menu-button"
+            routerLink="/formation"
+            (click)="sidenav.close()"
+        >
             <mat-icon>menu_book</mat-icon>
             <span>Formação</span>
         </button>
-        <button mat-button class="menu-button" routerLink="/experience">
+        <button
+            mat-button
+            class="menu-button"
+            routerLink="/experience"
+            (click)="sidenav.close()"
+        >
             <mat-icon>dvr</mat-icon>
             <span>Experiências</span>
         </button>
     </mat-sidenav>
-    <mat-sidenav-content>
-        <div>
-            <router-outlet></router-outlet>
-        </div>
-    </mat-sidenav-content>
+    <!-- Não use <mat-sidenav-content>. Esta tag é gerada automaticamente e tem a cdkScrollablediretiva
+    anexada a ela. Se você usar <mat-sidenav-content>em seu próprio modelo, o scrollableserá indefinido. -->
+    <!-- <mat-sidenav-content> -->
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+    <!-- </mat-sidenav-content> -->
 </mat-sidenav-container>
